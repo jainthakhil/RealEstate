@@ -1,0 +1,239 @@
+/* Header responsiveness */
+
+/* Hero section */
+@media screen and (max-width:460px) {
+    .header{
+        height: 50px;
+        /* display: none; */
+    }
+    .logo{
+        width: 20%;
+        justify-content: space-evenly;
+        /* display: none; */
+    }
+    .logo-link{
+        width: 100%;
+    }
+    .logo-img{
+        margin: auto;
+    }
+    .brand-name{
+        width: 60px;
+        margin: auto;
+        display: none;
+    }
+    .nav-btns{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .header-link{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0 ;
+    }
+    .hero{
+        background-size: contain;
+    }
+    .hero-content{
+        width: 80%;
+        padding: 20px;
+    }
+    .hero-heading{
+        font-size: 2rem;
+
+    }
+    .hero-price{
+        padding-top: 50%;
+    }
+
+    /* salebox */
+    .sale-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom:20px ;
+    }
+    .sale-heading{
+        font-size: 1.8rem;
+    }
+    .sale-mainbox{
+        width: 80%;
+        padding: 20px;
+    }
+    .sale-mainbox .custom-link{
+        width: 100%;
+    }
+    .sale-itembox{
+        width: 100%;
+        height: max-content;
+        flex-direction: column !important;
+        margin: 20px auto;
+    }
+    .sale-imgbox{
+        width: 100%;
+    }
+    .sale-img{
+        width: 100%;
+    }
+    .sale-content{
+        width: 100%;
+        margin: 0;
+
+    }
+    .sale-content h1{
+        width: 50%;
+        font-size: 2rem;
+    }
+    .sale-content h2{
+        font-size: 1rem;
+    }
+    .sale-content p{
+        font-size: 14px;
+    }
+    .sale-content h3{
+        padding-top: 20px;
+    }
+
+
+    /* rentbox */
+    .rent-heading h1{
+        font-size: 1.8rem;
+        margin-top: 50px;
+    }
+    .rent-mainbox{
+        width: 80%;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .rent-mainbox .custom-link{
+        width: 100%;
+    }
+    .rent-itembox{
+        margin: 20px auto;
+    }
+    .sale-imgbox{
+        width: 100%;
+    }
+    .rent-img{
+        width: 100%;
+    }
+    .rent-content{
+        width: 100%;
+        margin: 0;
+
+    }
+    .rent-content h1{
+        width: 50%;
+        font-size: 2rem;
+    }
+    .rent-content h2{
+        font-size: 1rem;
+    }
+    .rent-content p{
+        font-size: 14px;
+    }
+    .view-btn{
+        border: 0.5px solid #323644;
+        font-weight: 400;
+
+    }
+
+    /* Testimonial */
+    .testimonial-box{
+        height: max-content;
+    }
+    .testimonial-heading h1{
+        font-size: 1.8rem;
+        padding: 40px 0 20px 0;
+
+    }
+    .review-box{
+        flex-direction: column;
+    }
+    .testimonial-item{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    .testimonial-item p{
+        font-size: 16px;
+    }
+
+
+    /* footer */
+    .footer{
+        flex-direction: column;
+    }
+    .footer-mainbox{
+        flex-direction: column;
+    }
+    .footer>p{
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 0;
+        letter-spacing: 1px;
+    }
+
+
+    .contact-details{
+        margin: 20px 40px;
+    }
+    .detail-box{
+        flex-direction: column;
+    }
+    .detail-box div{
+        margin: 10px 0;
+    }
+
+    .contact-form{
+        margin: 20px 40px;
+    }
+    form{
+        width: 100%;
+        height: max-content;
+    }
+    .footer-form{
+        height: 100%;
+        flex-direction: column;
+    }
+    .left-form{
+        width: 100%;
+    }
+    .left-form input{
+        width: 100%;
+       
+    }
+  
+    .right-form{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        width: 100%;
+        
+    }
+    .submit-btn{
+        margin: 10px 0;
+    }
+
+    /* Agent */
+    .agent-mainbox{
+        width: 80%;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .agent-itembox{
+        width: 100%;
+        height: 80vh;
+        margin: 20px auto;
+    }
+    .agent-imgbox{
+        height: 50%;
+    }
+    .agent-content p {
+        margin: 10px auto;
+    }
+    
+}
+
