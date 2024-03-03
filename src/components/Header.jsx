@@ -11,8 +11,6 @@ function Header(){
                     <img src="/images/house.gif" className="logo-img" alt="logo"/>
                     <p className="brand-name">XTATE PROPERTIES</p>
                 </Link>
-                    {/* <img src="/images/house.gif" className="logo-img" alt="logo"/>
-                    <p className="brand-name">XTATE PROPERTIES</p> */}
                     
                 </div>
                 <div className="nav-btns">
