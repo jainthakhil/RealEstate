@@ -7,7 +7,7 @@ function Footer(){
     return(
         <div className="footer" id="footer">
         <div className="footer-mainbox">
-        <div className="contact-details">
+            <div className="contact-details">
                 <h2>YOU CAN CONTACT OUR SALE OR RENTAL TEAM <br /> CALL OR EMAIL US:</h2>
                 <div className="detail-box">
                     <div className="detail-left">
@@ -19,8 +19,6 @@ function Footer(){
                         San Francisco, CA 94158</p>
                     </div>
                 </div>
-                {/* <p>© 2024 by Xtate Properties.</p> */}
-                
             </div>
 
             <div className="contact-form">
@@ -38,13 +36,10 @@ function Footer(){
                     </div>
                     <button type="submit" className="submit-btn">SUBMIT</button>
                 </form>
-               
+                </div>
             </div>
-        </div>
-        <p>© 2024 by Xtate Properties.</p>
-            
-            
 
+            <p className="footer-copyright">© 2024 by Xtate Properties.</p>
         </div>
     )
 }
