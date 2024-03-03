@@ -4,7 +4,7 @@ function Agentitem(props){
     return(
         <div className="agent-itembox">
         <div className="agent-imgbox">
-            <img src={props.src} className="rent-img" />
+            <img src={props.src} className="agent-img" />
         </div>
         <div className="agent-content">
             <h1>{props.name}</h1>
